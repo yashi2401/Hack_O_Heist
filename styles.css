@@ -5,14 +5,12 @@ font-family: 'Ubuntu', sans-serif;
 font-family: 'Ubuntu Mono', monospace;
 font-family: 'Rubik Moonrocks', cursive;
 font-family: 'Titan One', cursive;*/
-
 /* COLORS */
 /* color: #5271FF;
 color: #EC3655;
 color: #FF914D;
 color: #FFDE59; */
-
-.nav-items{
+.nav-items {
   font-family: 'Inconsolata', monospace;
   font-weight: 900;
   font-size: 1.3rem;
@@ -20,50 +18,48 @@ color: #FFDE59; */
 }
 
 .nav-link:focus, .nav-link:hover {
-    color: #EC3655;
+  color: #EC3655;
 }
 
-
 /* BANNER */
-.banner-heading{
+.banner-heading {
   font-family: 'Rubik Moonrocks', cursive;
   color: #EC3655;
   font-size: 5.2rem;
   font-weight: bolder;
 }
 
-.banner-lead{
+.banner-lead {
   font-family: 'Inconsolata', monospace;
   font-size: 1.5em;
   align-content: center;
 }
 
-.btn{
+.btn {
   border: #EC3655;
 }
 
-.banner-btn1{
+.banner-btn1 {
   background-color: #FF914D;
   color: #FFFFFF;
 }
 
-.banner-btn2{
+.banner-btn2 {
   background-color: #5271FF;
   color: #FFFFFF;
 }
 
-.banner-btn1:hover{
+.banner-btn1:hover {
   background-color: #EC3655;
   color: #FFFFFF;
 }
 
-.banner-btn2:hover{
+.banner-btn2:hover {
   background-color: #9747FF;
   color: #FFFFFF;
 }
 
 /* ANIMATED BACKGROUND THEME */
-
 .circles {
   position: absolute;
   z-index: -1;
@@ -236,130 +232,129 @@ color: #FFDE59; */
 }
 
 /* ABOUT SECTION */
-.about-wrapper{
+.about-wrapper {
   background-color: #5271FF;
   padding: 5em;
 }
 
-.about-heading{
+.about-heading {
   font-family: 'Titan One', cursive;
   color: #FFFFFF;
   font-size: 5.2rem;
 }
 
-.about-lead{
+.about-lead {
   font-family: 'Inconsolata', monospace;
   font-size: 1.5em;
   align-content: center;
   color: #FFFFFF;
+  text-align: justify;
 }
 
-
 /* SCHEDULE SECTION */
-.schedule-wrapper{
+.schedule-wrapper {
   font-family: 'Inconsolata', monospace;
   padding: 5em;
 }
 
-.schedule-heading{
+.schedule-heading {
   font-family: 'Rubik Moonrocks', cursive;
   color: #EC3655;
   font-size: 5.2rem;
   font-weight: bolder;
 }
 
-.schedule-subheading1{
+.schedule-subheading1 {
   color: #5B36D8;
   font-family: 'Titan One', cursive;
   font-size: 2.8rem;
   font-weight: 300;
 }
 
-.schedule-subheading2{
+.schedule-subheading2 {
   color: #CF2283;
   font-family: 'Titan One', cursive;
   font-size: 2.8rem;
   font-weight: 300;
 }
 
-.schedule-subheading3{
+.schedule-subheading3 {
   color: #D52242;
   font-family: 'Titan One', cursive;
   font-size: 2.8rem;
   font-weight: 300;
 }
 
-.schedule-subheading4{
+.schedule-subheading4 {
   color: #5B36D8;
   font-family: 'Titan One', cursive;
   font-size: 2.8rem;
   font-weight: 300;
 }
 
-.schedule-icon{
+.schedule-icon {
   width: 4rem;
   height: 4rem;
 }
 
 /* FAQS */
-.faq-wrapper{
+.faq-wrapper {
   background-color: #EC3655;
   padding: 5em;
 }
 
-.faq-heading{
+.faq-heading {
   font-family: 'Titan One', cursive;
   color: #FFDE59;
   font-size: 5.2rem;
 }
 
-.faq-lead{
+.faq-lead {
   font-family: 'Inconsolata', monospace;
   font-size: 1.1em;
   align-content: center;
   color: #FFFFFF;
 }
 
-.theme{
+.theme {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.50);
 }
 
-.theme-wrapper{
+.theme-wrapper {
   font-family: 'Inconsolata', monospace;
   padding: 5em;
 }
 
-.theme-heading{
+.theme-heading {
   font-family: 'Rubik Moonrocks', cursive;
   color: #4166F5;
   font-size: 5.2rem;
   font-weight: bolder;
 }
 
-.theme-subheading{
+.theme-subheading {
   font-family: 'Inconsolata', monospace;
   color: #4166F5;
   font-size: 2.2rem;
   font-weight: bolder;
 }
 
-.theme-icon{
+.theme-icon {
   color: #4166F5;
 }
 
 /* SPONSORS */
-.sponsor-wrapper{
+.sponsor-wrapper {
   font-family: 'Inconsolata', monospace;
   padding: 5em;
 }
 
-.sponsor-heading{
+.sponsor-heading {
   font-family: 'Rubik Moonrocks', cursive;
   color: #5B36D8;
   font-size: 5.2rem;
   font-weight: bolder;
 }
-
 
 /* FOOTER */
 #footer {
@@ -369,17 +364,17 @@ color: #FFDE59; */
   padding: 30px 0;
 }
 
-.footer-social a{
+.footer-social a {
   color: #FFFFFF;
   padding-right: 2.2rem;
 }
 
-.footer-social a i:hover{
+.footer-social a i:hover {
   color: #FFFFFF;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.50);
 }
 
-
+/* BACK TO TOP BUTTON */
 .back-to-top {
   position: fixed;
   right: 15px;
@@ -391,13 +386,12 @@ color: #FFDE59; */
   border-radius: 50px;
   transition: all 0.4s;
 }
+
 .back-to-top i {
   font-size: 28px;
   color: #FFFFFF;
   line-height: 0;
 }
-
-
 
 /* MEDIA QUERIES */
 @media (max-width:376px) {
