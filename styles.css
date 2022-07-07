@@ -396,3 +396,169 @@ color: #FFDE59; */
   color: #FFFFFF;
   line-height: 0;
 }
+
+
+
+/* MEDIA QUERIES */
+@media (max-width:376px) {
+  .banner-img {
+    display: none !important;
+  }
+
+  .nav-items {
+    font-size: 1.1rem;
+  }
+
+  .py-5 {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+
+  .banner-heading {
+    font-size: 4.2rem;
+  }
+
+  .banner-lead {
+    font-size: 1.1em;
+  }
+
+  .about-wrapper {
+    background-color: #5271FF;
+    padding: 3rem;
+  }
+
+  .about-heading {
+    font-size: 3.3rem;
+  }
+
+  .about-lead {
+    font-size: 1.1em;
+  }
+
+  .schedule-wrapper {
+    padding: 3rem;
+  }
+
+  .schedule-heading {
+    font-size: 3.2rem;
+  }
+
+  .faq-wrapper {
+    padding: 3rem;
+  }
+
+  .faq-heading {
+    font-size: 3.3rem;
+  }
+
+  .faq-lead {
+    font-size: 1.1em;
+  }
+
+  .theme-wrapper {
+    padding: 3rem;
+  }
+
+  .theme-heading {
+    font-size: 3.2rem;
+  }
+
+  .theme-subheading {
+    font-size: 1.2rem;
+  }
+
+  .faq-lead .p-5 {
+    padding: 0.1rem !important;
+  }
+
+  .sponsor-wrapper {
+    padding: 3rem;
+  }
+
+  .sponsor-heading {
+    font-size: 3.2rem;
+  }
+
+  .back-to-top i {
+    display: none;
+  }
+}
+
+@media (max-width:996px) {
+  .nav-items {
+    font-size: 1.3rem;
+  }
+
+  .py-5 {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+
+  .banner-heading {
+    font-size: 4.2rem;
+  }
+
+  .banner-lead {
+    font-size: 1.1em;
+  }
+
+  .about-wrapper {
+    padding: 3rem;
+  }
+
+  .about-heading {
+    font-size: 3.3rem;
+  }
+
+  .about-lead {
+    font-size: 1.1em;
+  }
+
+  .schedule-wrapper {
+    padding: 3rem;
+  }
+
+  .schedule-heading {
+    font-size: 3.2rem;
+  }
+
+  .faq-wrapper {
+    padding: 3rem;
+  }
+
+  .faq-heading {
+    font-size: 3.3rem;
+  }
+
+  .faq-lead {
+    font-size: 1.1em;
+  }
+
+  .theme-wrapper {
+    padding: 3rem;
+  }
+
+  .theme-heading {
+    font-size: 3.2rem;
+  }
+
+  .theme-subheading {
+    font-size: 1.2rem;
+  }
+
+  .faq-lead .p-5 {
+    padding: 0.1rem !important;
+  }
+
+  .sponsor-wrapper {
+    padding: 3rem;
+  }
+
+  .sponsor-heading {
+    font-size: 3.2rem;
+  }
+
+  .back-to-top i {
+    display: none;
+  }
+}
