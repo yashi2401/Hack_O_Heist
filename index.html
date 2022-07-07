@@ -29,6 +29,10 @@
   <!-- FONTAWESOME -->
   <script src="https://kit.fontawesome.com/e5493f8028.js" crossorigin="anonymous"></script>
 
+  <!-- LINKING ANIMATIONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- LINKING GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,11 +75,11 @@
         <li></li>
       </ul>
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col col-sm-12 col-lg-6 col-md-6">
-          <img src="Images/Banner.png" class="d-block mx-lg-auto img-fluid" alt="BANNER IMAGE LOADING . . ." width="450" height="450">
+        <div class="col-sm-12 col-lg-6 col-md-6">
+          <img src="Images/Banner.png" class="d-block mx-lg-auto img-fluid banner-img" alt="BANNER IMAGE LOADING . . ." width="450" height="450">
         </div>
-        <div class="col col-sm-12 col-lg-6 col-md-6">
-          <h1 class="banner-heading">HACK O HEIST</h1>
+        <div class="col-sm-12 col-lg-6 col-md-6">
+          <h1 class="banner-heading animate__animated animate__rubberBand">HACK O HEIST</h1>
           <p class="banner-lead">Hack-O-Heist will be a 4-Day long Event that will include featuring workshops, fun mini-events, & challenges, followed by a 48-hour Online Global Hackathon! It will go on while caffeinated teams of exceptional student
             innovators and entrepreneurs will collaborate on building technology that aims on changing people's lives.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start my-5">
@@ -98,7 +102,7 @@
 
   <!-- SCHEDULE SECTION-->
   <div class="schedule-wrapper my-4" id="schedule">
-    <h2 class="pb-2 schedule-heading">SCHEDULE</h2>
+    <h2 class="pb-2 schedule-heading" data-aos="fade-right">SCHEDULE</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
 
       <!-- DAY 1 -->
@@ -246,12 +250,12 @@
   <!--THEMES SECTION-->
   <div id="hack-themes" class="theme-wrapper">
     <h1>
-      <span class="theme-heading">THEMES OF THE HACKATHON</span>
+      <span class="theme-heading" data-aos="fade-right">THEMES OF THE HACKATHON</span>
     </h1>
     <div class="mt-4 pt-5">
       <div class="row">
         <div class="col col-md-4 col-sm-6 mb-4">
-          <div class="card theme">
+          <div class="card theme" data-aos="zoom-in">
             <div class="card-body">
               <i class="theme-icon fas fa-graduation-cap" style="font-size: 38px;"></i>
               <h1 class="theme-subheading" style="padding-top: 20px;">Education</h1>
@@ -263,7 +267,7 @@
           </div>
         </div>
         <div class="col col-md-4 col-sm-6 mb-4">
-          <div class="card theme">
+          <div class="card theme" data-aos="zoom-in">
             <div class="card-body">
               <i class="theme-icon fas fa-hospital-alt" style="font-size: 38px;"></i>
               <h1 class="theme-subheading" style="padding-top: 20px;">Healthcare </h1>
@@ -276,7 +280,7 @@
         </div>
 
         <div class="col col-md-4 col-sm-6 mb-4">
-          <div class="card theme">
+          <div class="card theme" data-aos="zoom-in">
             <div class="card-body">
               <i class="theme-icon fab fa-accessible-icon" style="font-size: 38px;"></i>
               <h1 class="theme-subheading" style="padding-top: 20px;">Digital Accessibility</h1>
@@ -289,7 +293,7 @@
         </div>
 
         <div class="col col-md-4 col-sm-6 mb-4">
-          <div class="card theme">
+          <div class="card theme" data-aos="zoom-in">
             <div class="card-body">
               <i class="theme-icon fab fa-pagelines" style="font-size: 38px;"></i>
               <h1 class="theme-subheading" style="padding-top: 20px;">Environment</h1>
@@ -302,7 +306,7 @@
         </div>
 
         <div class="col col-md-4 col-sm-6 mb-4">
-          <div class="card theme">
+          <div class="card theme" data-aos="zoom-in">
             <div class="card-body">
               <i class="theme-icon fas fa-seedling" style="font-size: 38px;"></i>
               <h1 class="theme-subheading" style="padding-top: 20px;">Agriculture</h1>
@@ -315,7 +319,7 @@
         </div>
 
         <div class="col col-md-4 col-sm-6 mb-4">
-          <div class="card theme">
+          <div class="card theme" data-aos="zoom-in">
             <div class="card-body">
               <i class="theme-icon fas fa-shield-alt" style="font-size: 38px;"></i>
               <h1 class="theme-subheading" style="padding-top: 20px;">Security</h1>
@@ -328,7 +332,7 @@
         </div>
 
         <div class="col col-md-4 col-sm-6 mb-4">
-          <div class="card theme">
+          <div class="card theme" data-aos="zoom-in">
             <div class="card-body">
               <i class="theme-icon fas fa-drafting-compass" style="font-size: 38px;"></i>
               <h1 class="theme-subheading" style="padding-top: 20px;">Open Innovation</h1>
@@ -369,6 +373,8 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="text-decoration: none;"><i class="fa-solid fa-angle-up"></i></a>
 
   <!-- VENDOR JS FILES -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
