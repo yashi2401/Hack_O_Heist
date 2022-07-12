@@ -356,6 +356,20 @@ color: #FFDE59; */
   font-weight: bolder;
 }
 
+.sponsor-subheading{
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 2.9rem;
+  font-weight: bolder;
+  color: #EC3655;
+  padding: 2rem;
+}
+
+.logo{
+  height: 150px;
+  width: auto;
+  margin: 2em;
+}
+
 /* FOOTER */
 #footer {
   background: #5B36D8;
