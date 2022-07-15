@@ -506,6 +506,10 @@ color: #FFDE59; */
   .sponsor-heading {
     font-size: 3.2rem;
   }
+  
+  .prizes-wrapper{
+    padding: 3rem;
+  }
 
   .prizes-heading {
     font-size: 3.2rem;
@@ -592,6 +596,10 @@ color: #FFDE59; */
 
   .sponsor-heading {
     font-size: 3.2rem;
+  }
+  
+   .prizes-wrapper{
+    padding: 3rem;
   }
 
   .prizes-heading {
