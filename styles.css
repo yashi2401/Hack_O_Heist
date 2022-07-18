@@ -373,17 +373,19 @@ color: #FFDE59; */
 .prizes-wrapper {
   font-family: 'Inconsolata', monospace;
   padding: 5em 5em 2em 5em;
+  background-color: #5B36D8;
+  color: white;
 }
 
 .prizes-heading {
   font-family: 'Rubik Moonrocks', cursive;
-  color: #5B36D8;
+  color: white;
   font-size: 5.2rem;
   font-weight: bolder;
 }
 
 .prizes-subheading{
-  color: #5B36D8;
+  color: white;
   font-family: 'Inconsolata', monospace;
   font-size: 2rem;
   font-weight: 800;
