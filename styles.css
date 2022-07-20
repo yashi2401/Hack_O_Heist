@@ -252,6 +252,12 @@ color: #FFDE59; */
 }
 
 /* SCHEDULE SECTION */
+td{
+  padding: 1rem;
+  padding-right: 2.5rem;
+  font-size: 1rem;
+}
+
 .schedule-wrapper {
   font-family: 'Inconsolata', monospace;
   padding: 5em 5em 2em 5em;
@@ -463,6 +469,10 @@ color: #FFDE59; */
 
   .about-lead {
     font-size: 1.1em;
+  }
+  
+  .schedule-icon{
+    display: none;
   }
 
   .schedule-wrapper {
